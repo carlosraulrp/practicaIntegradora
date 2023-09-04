@@ -12,7 +12,7 @@ router.get("/api/users", async(req, res) =>{
     }
 })
 
-router.post("/api/users", async(req,res) =>{
+router.post("/api/addUser", async(req,res) =>{
     let {nombre, apellido, email} = req.body
 
     if(!nombre || !apellido || !email){

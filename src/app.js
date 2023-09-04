@@ -19,6 +19,9 @@ app.listen(PORT, () =>{
 
 
 mongoose.connect('mongodb+srv://carlosraulrp:811563@cluster0.4l731ku.mongodb.net/?retryWrites=true&w=majority')
+
+
+
 .then(()=>{
     console.log("Conectado a la DB de MongoAtlas")
 })
